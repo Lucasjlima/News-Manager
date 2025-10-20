@@ -1,0 +1,8 @@
+﻿@model News_Manager.Models.News
+<h3>Confirma remoção?</h3>
+<div><strong>@Model.Title</strong> — @Model.Author</div>
+<form method="post" asp-action="DeleteConfirmed">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Sim, remover</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

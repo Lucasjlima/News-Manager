@@ -26,4 +26,4 @@ public class News
 
     public bool IsPublished { get; set; }
 }
-}
+

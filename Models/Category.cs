@@ -1,5 +1,10 @@
 ﻿namespace News_Manager.Models;
 
-public class Category
+public enum Category
 {
+    Tecnologia,
+    Politica,
+    Esporte,
+    Cultura,
+    Outro
 }
