@@ -28,31 +28,32 @@ O projeto foi criado com foco em:
 
 ## 🧩 Estrutura do Projeto
 
-News-Manager/
-├── Controllers/
-│ ├── HomeController.cs
-│ └── NewsController.cs
-├── Models/
-│ └── News.cs
-├── Repositories/
-│ └── InMemoryNewsRepository.cs
-├── Views/
-│ ├── Home/
-│ │ └── Index.cshtml
-│ ├── News/
-│ │ ├── Index.cshtml
-│ │ ├── Create.cshtml
-│ │ ├── Edit.cshtml
-│ │ ├── Delete.cshtml
-│ │ └── Details.cshtml
-│ └── Shared/
-│ ├── _Layout.cshtml
-│ └── _ValidationScriptsPartial.cshtml
-├── wwwroot/
-│ ├── css/
-│ ├── js/
-│ └── lib/
-└── Program.cs
+- **News-Manager/**
+  - **Controllers/**
+    - `HomeController.cs`
+    - `NewsController.cs`
+  - **Models/**
+    - `News.cs`
+  - **Repositories/**
+    - `InMemoryNewsRepository.cs`
+  - **Views/**
+    - **Home/**
+      - `Index.cshtml`
+    - **News/**
+      - `Index.cshtml`
+      - `Create.cshtml`
+      - `Edit.cshtml`
+      - `Delete.cshtml`
+      - `Details.cshtml`
+    - **Shared/**
+      - `_Layout.cshtml`
+      - `_ValidationScriptsPartial.cshtml`
+  - **wwwroot/**
+    - **css/**
+    - **js/**
+    - **lib/**
+  - `Program.cs`
+
 
 
 ---
