@@ -228,7 +228,8 @@ A pesquisa é feita por título ou autor, utilizando o método Search() no repos
 Formulário com validação de dados, uso de Tag Helpers e dropdown de categoria (enum).
 Os campos obrigatórios utilizam anotações como [Required] e [StringLength].
 
-<img width="1919" height="908" alt="Create" src="https://github.com/user-attachments/assets/2690ef22-fc06-4e33-a589-081873df83cb" />
+![Create](https://raw.githubusercontent.com/Lucasjlima/News-Manager/main/prints/Create.png)
+
 
 
 ✏️ Editar Notícia (Edit)
