@@ -228,8 +228,9 @@ A pesquisa é feita por título ou autor, utilizando o método Search() no repos
 Formulário com validação de dados, uso de Tag Helpers e dropdown de categoria (enum).
 Os campos obrigatórios utilizam anotações como [Required] e [StringLength].
 
-![Create](prints/Create.png)
-
+<p align="center">
+  <img src="prints/Create.png" width="600px" alt="Tela de criação de notícia">
+</p>
 
 
 ✏️ Editar Notícia (Edit)
