@@ -244,7 +244,7 @@ Utiliza o mesmo modelo de validação da tela de criação e reaproveita o layou
 Mostra todas as informações completas da notícia, como título, conteúdo, autor e data.
 É acessada através do botão Detalhes na listagem principal.
 
-<img width="1919" height="909" alt="Details" src="https://github.com/user-attachments/assets/5d78405b-c783-4624-a56b-2facf0251e8a" />
+[!Detalhes](Details.png)
 
 ❌ Confirmação de Exclusão (Delete)
 
