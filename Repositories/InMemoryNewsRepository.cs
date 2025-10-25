@@ -46,11 +46,18 @@ public class InMemoryNewsRepository : INewsRepository
 
     public IEnumerable<News> Search(string query)
     {
-        if (string.IsNullOrWhiteSpace(query)) return GetAll();
+        if (string.IsNullOrWhiteSpace(query))
+            return GetAll();
+
         query = query.Trim().ToLower();
+
         return _newsList.Where(n =>
             (n.Title != null && n.Title.ToLower().Contains(query)) ||
-            (n.Author != null && n.Author.ToLower().Contains(query)));
+            (n.Author != null && n.Author.ToLower().Contains(query)) ||
+            (n.Category.ToString().ToLower().Contains(query))
+        );
     }
+
+
 }
 
