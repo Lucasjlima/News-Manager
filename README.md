@@ -219,7 +219,7 @@ Exibe todas as notícias cadastradas no sistema.
 Possui campo de pesquisa e botões de ação (Detalhes, Editar, Excluir).
 A pesquisa é feita por título ou autor, utilizando o método Search() no repositório.
 
-<img width="1919" height="1020" alt="List_All" src="https://github.com/user-attachments/assets/1a9fdf8a-7595-4c78-a142-3aaf6ee8ee80" />
+![List](prints/ListAll.png)
 
 
 
