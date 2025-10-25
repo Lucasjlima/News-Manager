@@ -211,7 +211,7 @@ A classe `News` contém anotações de validação:
 Apresenta uma breve descrição do sistema e links para a listagem e criação de notícias.
 Utiliza o layout principal (_Layout.cshtml) e Tag Helpers para redirecionamento.
 
-![Home](prints/home.png)
+![Home](home.png)
 
 📰 Lista de Notícias (Index)
 
@@ -219,7 +219,7 @@ Exibe todas as notícias cadastradas no sistema.
 Possui campo de pesquisa e botões de ação (Detalhes, Editar, Excluir).
 A pesquisa é feita por título ou autor, utilizando o método Search() no repositório.
 
-![List](prints/ListAll.png)
+![List](ListAll.png)
 
 
 
