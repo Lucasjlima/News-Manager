@@ -198,3 +198,70 @@ A classe `News` contém anotações de validação:
 [Required(ErrorMessage = "O campo Título é obrigatório.")]
 [StringLength(100)]
 [DataType(DataType.Date)]
+
+
+🖼️ Layout e Telas
+
+📌 O layout utiliza Bootstrap 5 com header fixo e footer ajustado.
+📌 Todas as páginas herdam o layout _Layout.cshtml via @RenderBody().
+📌 As views utilizam Tag Helpers para navegação entre controladores e ações.
+
+🏠 Tela Inicial (Home)
+
+Apresenta uma breve descrição do sistema e links para a listagem e criação de notícias.
+Utiliza o layout principal (_Layout.cshtml) e Tag Helpers para redirecionamento.
+
+<img width="1919" height="1019" alt="Home_Screen" src="https://github.com/user-attachments/assets/e0ff82ba-7612-4dab-a5c5-46e2c21b43a6" />
+
+📰 Lista de Notícias (Index)
+
+Exibe todas as notícias cadastradas no sistema.
+Possui campo de pesquisa e botões de ação (Detalhes, Editar, Excluir).
+A pesquisa é feita por título ou autor, utilizando o método Search() no repositório.
+
+<img width="1919" height="1020" alt="List_All" src="https://github.com/user-attachments/assets/1a9fdf8a-7595-4c78-a142-3aaf6ee8ee80" />
+
+
+
+➕ Criar Notícia (Create)
+
+Formulário com validação de dados, uso de Tag Helpers e dropdown de categoria (enum).
+Os campos obrigatórios utilizam anotações como [Required] e [StringLength].
+
+<img width="1919" height="908" alt="Create" src="https://github.com/user-attachments/assets/2690ef22-fc06-4e33-a589-081873df83cb" />
+
+
+✏️ Editar Notícia (Edit)
+
+Permite alterar os dados de uma notícia existente.
+Utiliza o mesmo modelo de validação da tela de criação e reaproveita o layout.
+
+<img width="1919" height="905" alt="Edit" src="https://github.com/user-attachments/assets/a5eea049-c1a7-402c-9ece-024558192d43" />
+
+
+🔍 Detalhes da Notícia (Details)
+
+Mostra todas as informações completas da notícia, como título, conteúdo, autor e data.
+É acessada através do botão Detalhes na listagem principal.
+
+<img width="1919" height="909" alt="Details" src="https://github.com/user-attachments/assets/5d78405b-c783-4624-a56b-2facf0251e8a" />
+
+❌ Confirmação de Exclusão (Delete)
+
+Exibe uma tela de confirmação antes de remover definitivamente uma notícia.
+A exclusão é feita via método POST com ação DeleteConfirmed.
+
+<img width="1919" height="1020" alt="Remove" src="https://github.com/user-attachments/assets/029fc7a2-b32b-4f7a-95af-8c5c595ffe27" />
+
+
+🔎 Pesquisa
+
+A tela de listagem (Index) contém um campo de busca que filtra as notícias pelo título ou autor.
+A pesquisa é implementada no repositório (InMemoryNewsRepository) e tratada no NewsController.
+
+<img width="1919" height="1019" alt="Search_By" src="https://github.com/user-attachments/assets/c8e4ec27-8704-495f-94d0-4aa14bd667fc" />
+
+
+
+
+
