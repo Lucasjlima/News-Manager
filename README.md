@@ -211,7 +211,9 @@ A classe `News` contém anotações de validação:
 Apresenta uma breve descrição do sistema e links para a listagem e criação de notícias.
 Utiliza o layout principal (_Layout.cshtml) e Tag Helpers para redirecionamento.
 
-![Home](home.png)
+<img width="1919" height="1019" alt="home" src="https://github.com/user-attachments/assets/7c49ae38-5c34-4942-a549-9795267abf6d" />
+
+
 
 📰 Lista de Notícias (Index)
 
@@ -219,7 +221,8 @@ Exibe todas as notícias cadastradas no sistema.
 Possui campo de pesquisa e botões de ação (Detalhes, Editar, Excluir).
 A pesquisa é feita por título ou autor, utilizando o método Search() no repositório.
 
-![List](ListAll.png)
+
+<img width="1919" height="1020" alt="ListAll" src="https://github.com/user-attachments/assets/aa4cdf61-49a0-4933-be0a-7ebc9caadb0a" />
 
 
 
@@ -228,7 +231,8 @@ A pesquisa é feita por título ou autor, utilizando o método Search() no repos
 Formulário com validação de dados, uso de Tag Helpers e dropdown de categoria (enum).
 Os campos obrigatórios utilizam anotações como [Required] e [StringLength].
 
-![Create](https://raw.githubusercontent.com/Lucasjlima/News-Manager/main/prints/Create.png)
+<img width="1919" height="908" alt="Create" src="https://github.com/user-attachments/assets/6bbc1a4f-3f2e-410c-8634-1fc1255a17e1" />
+
 
 
 ✏️ Editar Notícia (Edit)
@@ -244,7 +248,8 @@ Utiliza o mesmo modelo de validação da tela de criação e reaproveita o layou
 Mostra todas as informações completas da notícia, como título, conteúdo, autor e data.
 É acessada através do botão Detalhes na listagem principal.
 
-[!Detalhes](Details.png)
+<img width="1919" height="909" alt="Details" src="https://github.com/user-attachments/assets/d27fb58b-6863-4109-b9f4-3f735b227982" />
+
 
 ❌ Confirmação de Exclusão (Delete)
 
