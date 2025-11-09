@@ -1,4 +1,4 @@
-# 📰 News Manager — Checkpoint 2 (ASP.NET Core MVC)
+# 📰 News Manager
 
 ## 👥 Integrantes do Grupo
 ## 2TDSPA
@@ -6,8 +6,6 @@
 ### RM : 561160 Lucas José Lima
 
 ### RM : 560547 Rangel Bernardi Jordao
-
-### RM : 559755 Eduardo Osterloh Bindo
 
 ---
 
