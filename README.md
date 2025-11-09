@@ -12,7 +12,7 @@
 ## 🎯 Objetivo do Projeto
 
 O **News Manager** é uma aplicação web desenvolvida em **ASP.NET Core MVC** que realiza as operações básicas de **CRUD** (Create, Read, Update e Delete) sobre um conjunto de notícias, além de permitir a **pesquisa** por título ou autor.  
-O sistema foi construído **sem uso de banco de dados**, armazenando as informações **em memória**, conforme exigido pelo checkpoint.
+O sistema foi construído **sem uso de banco de dados**, armazenando as informações **em memória**
 
 O projeto foi criado com foco em:
 - Implementar as principais funcionalidades do padrão **MVC (Model-View-Controller)**;
